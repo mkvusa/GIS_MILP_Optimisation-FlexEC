@@ -57,7 +57,7 @@ The workflow was developed using the following software:
 ## 2. Datesets
 The datasets in this folder include GIS and MILP files. Due to the size of the GIS files which include Road network, Neighbourhood and Points of interesting are not included but can be public accessed through [CBS](https://www.cbs.nl/), [PDOK](https://app.pdok.nl/viewer/#x=160000.00&y=455000.00&z=3.0000&background=BRT-A%20standaard&layers=) and [Esri living atlas of the world](https://livingatlas.arcgis.com/en/home/)'[Licensed]'.
 
-Furthermore, in the data is included the result files of the TT run and MC run 
+Furthermore, in the data is included the result files of the TT run and MC run. These folders contain all the outputs from the model of the GIS suitability analysis and the MILP outputs. The specific folder names are [MC_run](https://github.com/mkvusa/GIS_MILP_Optimisation-FlexEC/tree/main/MC_run_results) and [TT_run](https://github.com/mkvusa/GIS_MILP_Optimisation-FlexEC/tree/main/TT_results). Each folder has files pattening to the model output with initial labeling starting with TT or MC to differentiate the individual planning objective prioritization scenario setup.
 
 Main Python packages include:
 
