@@ -15,12 +15,12 @@ The case study focuses on Eindhoven, the Netherlands.
 1. [Workflow and Datasets](#workflow-and-datasets)  
 2. [Requirements](#1-requirements)
 3. [Dataset] (#2-Datasets) 
-3. [Setup](#2-setup-gis--milp)  
-4. [Repository Files](#3-repository-files)  
-5. [Outputs](#4-outputs)  
-6. [Writing and Citation](#5-writing-and-citation)  
-7. [Acknowledgement](#6-acknowledgement)  
-8. [Further Reading](#7-further-reading)
+4. [Setup](#3-setup-gis--milp)  
+5. [Repository Files](#4-repository-files)  
+6. [Outputs]#(5-outputs)  
+7. [Writing and Citation](#6-writing-and-citation)  
+8. [Acknowledgement](#7-acknowledgement)  
+8. [Further Reading](#8-further-reading)
 
 ---
 
