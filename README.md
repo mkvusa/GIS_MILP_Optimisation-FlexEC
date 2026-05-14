@@ -1,4 +1,4 @@
-## How Urban Is World Heritage? An Investigation of Built-up Area Increase in Cultural Heritage Properties
+## A GIS MILP framework for electric vehicle charging station placement and optimization: A Case Study in Eindhoven, Netherlands
 
   This is the reporsitory of the project amd Journal paper 'How Urban Is World Heritage? An Investigation of Built-up Area Increase in Cultural Heritage Properties' published in the Land journal. It contains Steps, data and Results of the process resulting from the assessemtent of Built-up Area Increase in Cultural Heritage Properties in sampled 668 [UNESCOs World Heritage properties](https://whc.unesco.org/en/list/). 
 To use it, follow the setup and instructions below.
