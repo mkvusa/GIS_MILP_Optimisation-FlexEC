@@ -14,13 +14,12 @@ The case study focuses on Eindhoven, the Netherlands.
 
 1. [Workflow and Datasets](#workflow-and-datasets)  
 2. [Requirements](#1-requirements)
-3. [Datasets](#2-Datasets) 
-4. [Setup](#3-setup-gis--milp)  
-5. [Repository Files](#4-repository-files)  
-6. [Outputs](#5-Outputs)  
-7. [Writing and Citation](#6-writing-and-citation)  
-8. [Acknowledgement](#7-acknowledgement)  
-8. [Further Reading](#8-further-reading)
+3. [Setup](#2-setup-gis--milp) 
+4. [Datasets](#3-Datasets) 
+5. [Outputs](#4-Outputs)  
+6. [Writing and Citation](#5-writing-and-citation)  
+7. [Acknowledgement](#6-acknowledgement)  
+8. [Further Reading](#7-further-reading)
 
 ---
 
@@ -63,17 +62,13 @@ The model has two main objectives monetary cost and Travel time. Monetary cost r
 
 The datasets in this folder include GIS and MILP files. Due to the size of the GIS files, the road network, neighbourhood boundaries, and points of interest are not included in this repository. However, these datasets can be publicly accessed through [CBS](https://www.cbs.nl/), [PDOK](https://app.pdok.nl/viewer/), and [Esri Living Atlas of the World](https://livingatlas.arcgis.com/en/home/) `[Licensed]`.
 
+## Outputs
 The data folder also includes the result files of the TT run and MC run. These folders contain the outputs from the GIS suitability analysis and the MILP model. The specific folder names are [MC_run_results](MC_run_results) and [TT_results](TT_results). Each folder contains files related to the model outputs, with file names starting with `TT` or `MC` to differentiate the individual planning objective prioritization scenarios.
 
 In the [Scripts](Scripts) folder, the scripts used in the study are presented. The main files in this folder are the MILP scripts labelled [TT_run_EVCS.ipynb](Scripts/TT_run_EVCS.ipynb) for the travel-time optimization scenario and [MC_run_EVCS.ipynb](Scripts/MC_run_EVCS.ipynb) for the monetary-cost optimization scenario. The folder also includes [MC_results_analysis.ipynb](Scripts/MC_results_analysis.ipynb), which was used to analyse the monetary-cost results. For further details, see the published article.
 
-Due to the size of the spatial data, these files are not included in this repository. However, a description of how the data were collected, processed, and used is detailed in the manuscript. The datasets can be accessed online from the original data providers.
-
-## 3 Setup
-
 Main Python packages include:
-
-```python
+python
 pandas
 numpy
 geopandas
@@ -84,3 +79,12 @@ gurobipy
 matplotlib
 seaborn
 openpyxl
+
+
+Furthermoe due to the size of the spatial data, these files are not included in this repository. However, a description of how the data were collected, processed, and used is detailed in the manuscript. The datasets can be accessed online from the original data providers.
+
+## Writing and Citation
+The manuscript was written and Edited in Latex. See final published copy
+
+## Acknowledgement]
+Spatial thanks to the co-Authors, the chair group of spatial planning at Wageningen university and the The [Dutch National Research Council(NWO)](https://www.nwo.nl/en/projects/kich1ed0320012) for funding the FlexECs project.
