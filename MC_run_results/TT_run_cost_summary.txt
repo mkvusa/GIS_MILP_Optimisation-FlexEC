@@ -1,0 +1,6 @@
+=== Final Two-Phase_TT_run Model Summary ===
+TT_Phase2_Obj=32486537.38008835
+TT_BestBd=32478519.33115845
+TT_Gap=0.0002468114356445496
+TT_Runtime=1784.248558998108
+TT_Chargers_Opened=1071 / 2033

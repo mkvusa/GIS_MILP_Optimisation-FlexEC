@@ -59,7 +59,7 @@ The datasets in this folder include GIS and MILP files. Due to the size of the G
 
 Furthermore, in the data is included the result files of the TT run and MC run. These folders contain all the outputs from the model of the GIS suitability analysis and the MILP outputs. The specific folder names are [MC_run](https://github.com/mkvusa/GIS_MILP_Optimisation-FlexEC/tree/main/MC_run_results) and [TT_run](https://github.com/mkvusa/GIS_MILP_Optimisation-FlexEC/tree/main/TT_results). Each folder has files pattening to the model output with initial labeling starting with TT or MC to differentiate the individual planning objective prioritization scenario setup.
 
-The main files in this folder is the script for the MILP which is label TT run for the travel time optimzation scenario setup and the MC_run for the monetary cost scenario setup. For further datails of this read the published article.
+Furthermore in the folder [Scripts](mkvusa/GIS_MILP_Optimisation-FlexEC/Scripts/MC_results_analysis.ipynb) the used scripts are presented. The main files in this folder is the script for the MILP which is label [TT_run](mkvusa/GIS_MILP_Optimisation-FlexEC/Scripts/TT_run_EVCS.ipynb) for the travel time optimzation scenario setup and the [MC_run](mkvusa/GIS_MILP_Optimisation-FlexEC/Scripts/MC_run_EVCS.ipynb) for the monetary cost scenario setup. For further datails of this read the published article.
 
 Main Python packages include:
 
