@@ -16,10 +16,10 @@ The case study focuses on Eindhoven, the Netherlands.
 2. [Datasets](#datasets)
 3. [Requirements](#requirements) 
 4. [Setup](#setup) 
-5. [Outputs](#Outputs)  
+5. [Outputs](#outputs)  
 6. [Writing and Citation](#writing-and-citation)  
-7. [Acknowledgement](#6-acknowledgement)  
-8. [Further Reading](#7-further-reading)
+7. [Acknowledgement](#acknowledgement)  
+8. [Further Reading](#further-reading)
 
 ---
 
@@ -40,6 +40,7 @@ The repository includes selected processed inputs, optimization scripts, and out
 ![Workflow of the project](location_allocation_optmization.jpg)
 
 ---
+
 ## Datasets
 
 The datasets in this folder include GIS and MILP files. Due to the size of the GIS files, the road network, neighbourhood boundaries, and points of interest are not included in this repository. However, these datasets can be publicly accessed through [CBS](https://www.cbs.nl/), [PDOK](https://app.pdok.nl/viewer/), and [Esri Living Atlas of the World](https://livingatlas.arcgis.com/en/home/) `[Licensed]`.
