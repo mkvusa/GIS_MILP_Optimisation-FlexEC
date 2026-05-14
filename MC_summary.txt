@@ -1,0 +1,6 @@
+=== Final Two-Phase_fixed_cost_ Model Summary ===
+MC_Phase2_Obj=143032.4418650908
+MC_BestBd=142955.18496827784
+MC_Gap=0.0005401354811926707
+MC_Runtime=1354.8487648963928
+MC_Chargers_Opened=1071 / 2033
