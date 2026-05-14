@@ -52,6 +52,7 @@ The workflow was developed using the following software:
 - [QGIS](https://www.qgis.org/) `[Free, optional]`
 - [LaTeX](https://www.latex-project.org/) `[Free]`
 - [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) `[Licensed]`
+## 2. Dates
 
 Main Python packages include:
 
