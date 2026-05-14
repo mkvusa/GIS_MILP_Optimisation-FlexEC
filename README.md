@@ -54,12 +54,15 @@ The workflow was developed using the following software:
 - [LaTeX](https://www.latex-project.org/) `[Free]`
 - [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) `[Licensed]`
 
-## 2. Datesets
-The datasets in this folder include GIS and MILP files. Due to the size of the GIS files which include Road network, Neighbourhood and Points of interesting are not included but can be public accessed through [CBS](https://www.cbs.nl/), [PDOK](https://app.pdok.nl/viewer/#x=160000.00&y=455000.00&z=3.0000&background=BRT-A%20standaard&layers=) and [Esri living atlas of the world](https://livingatlas.arcgis.com/en/home/)'[Licensed]'.
+## 2. Datasets
 
-Furthermore, in the data is included the result files of the TT run and MC run. These folders contain all the outputs from the model of the GIS suitability analysis and the MILP outputs. The specific folder names are [MC_run](https://github.com/mkvusa/GIS_MILP_Optimisation-FlexEC/tree/main/MC_run_results) and [TT_run](https://github.com/mkvusa/GIS_MILP_Optimisation-FlexEC/tree/main/TT_results). Each folder has files pattening to the model output with initial labeling starting with TT or MC to differentiate the individual planning objective prioritization scenario setup.
+The datasets in this folder include GIS and MILP files. Due to the size of the GIS files, the road network, neighbourhood boundaries, and points of interest are not included in this repository. However, these datasets can be publicly accessed through [CBS](https://www.cbs.nl/), [PDOK](https://app.pdok.nl/viewer/), and [Esri Living Atlas of the World](https://livingatlas.arcgis.com/en/home/) `[Licensed]`.
 
-Furthermore in the folder [Scripts](mkvusa/GIS_MILP_Optimisation-FlexEC/Scripts/MC_results_analysis.ipynb) the used scripts are presented. The main files in this folder is the script for the MILP which is label [TT_run](mkvusa/GIS_MILP_Optimisation-FlexEC/Scripts/TT_run_EVCS.ipynb) for the travel time optimzation scenario setup and the [MC_run](mkvusa/GIS_MILP_Optimisation-FlexEC/Scripts/MC_run_EVCS.ipynb) for the monetary cost scenario setup. For further datails of this read the published article.
+The data folder also includes the result files of the TT run and MC run. These folders contain the outputs from the GIS suitability analysis and the MILP model. The specific folder names are [MC_run_results](MC_run_results) and [TT_results](TT_results). Each folder contains files related to the model outputs, with file names starting with `TT` or `MC` to differentiate the individual planning objective prioritization scenarios.
+
+In the [Scripts](Scripts) folder, the scripts used in the study are presented. The main files in this folder are the MILP scripts labelled [TT_run_EVCS.ipynb](Scripts/TT_run_EVCS.ipynb) for the travel-time optimization scenario and [MC_run_EVCS.ipynb](Scripts/MC_run_EVCS.ipynb) for the monetary-cost optimization scenario. The folder also includes [MC_results_analysis.ipynb](Scripts/MC_results_analysis.ipynb), which was used to analyse the monetary-cost results. For further details, see the published article.
+
+Due to the size of the spatial data, these files are not included in this repository. However, a description of how the data were collected, processed, and used is detailed in the manuscript. The datasets can be accessed online from the original data providers.
 
 Main Python packages include:
 
