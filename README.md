@@ -53,7 +53,11 @@ The workflow was developed using the following software:
 - [QGIS](https://www.qgis.org/) `[Free, optional]`
 - [LaTeX](https://www.latex-project.org/) `[Free]`
 - [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) `[Licensed]`
+
 ## 2. Datesets
+The datasets in this folder include GIS and MILP files. Due to the size of the GIS files which include Road network, Neighbourhood and Points of interesting are not included but can be public accessed through [CBS](https://www.cbs.nl/), [PDOK](https://app.pdok.nl/viewer/#x=160000.00&y=455000.00&z=3.0000&background=BRT-A%20standaard&layers=) and [Esri living atlas of the world](https://livingatlas.arcgis.com/en/home/)'[Licensed]'.
+
+Furthermore, in the data is included the result files of the TT run and MC run 
 
 Main Python packages include:
 
