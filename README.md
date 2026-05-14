@@ -56,7 +56,7 @@ The workflow was developed using the following software:
 ## Setup
 The model is framework is set to intergrate spatial suitability of location using spatial regressionn analys with MILP to optimze location, number, cost, travel time and invements cost for an optimzed charging station network.
 
-The model has two main objectives monetary cost and Travel time. Monetary cost refered to as MC comprimses of the investment cost in land acquisition, BESS storage installation and cost of charging at the station while the Travel cost is the cost of traveling to the EVCS to dicharge or charge energy by the user. The setup allows for the assesment of these two objective using tradeoff for palnning purposes. Read manuscipt fot further details.
+The model has two main objectives monetary cost and Travel time. Monetary cost refered to as MC comprises of the investment cost in land acquisition, BESS storage installation and cost of charging at the station while the Travel cost is the cost of traveling to the EVCS to dicharge or charge energy by the user. The setup allows for the assesment of these two objective using tradeoff for palnning purposes. Read manuscipt fot further details.
 
 ## Datasets
 
@@ -81,10 +81,10 @@ seaborn
 openpyxl
 
 
-Furthermoe due to the size of the spatial data, these files are not included in this repository. However, a description of how the data were collected, processed, and used is detailed in the manuscript. The datasets can be accessed online from the original data providers.
+Furthermore due to the size of the spatial data, these files are not included in this repository. However, a description of how the data were collected, processed, and used is detailed in the manuscript. The datasets can be accessed online from the original data providers.
 
 ## Writing and Citation
 The manuscript was written and Edited in Latex. See final published copy
 
-## Acknowledgement]
+## Acknowledgement
 Spatial thanks to the co-Authors, the chair group of spatial planning at Wageningen university and the The [Dutch National Research Council(NWO)](https://www.nwo.nl/en/projects/kich1ed0320012) for funding the FlexECs project.
