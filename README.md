@@ -12,12 +12,12 @@ The case study focuses on Eindhoven, the Netherlands.
 
 ## Summary
 
-1. [Workflow](#workflow-and-datasets)  
-2. [Datasets](#1-datasets)
-3. [Requirements](#2-requirements) 
-4. [Setup](#3-setup) 
-5. [Outputs](#4-Outputs)  
-6. [Writing and Citation](#5-writing-and-citation)  
+1. [Workflow](#workflow)  
+2. [Datasets](#datasets)
+3. [Requirements](#requirements) 
+4. [Setup](#setup) 
+5. [Outputs](#Outputs)  
+6. [Writing and Citation](#writing-and-citation)  
 7. [Acknowledgement](#6-acknowledgement)  
 8. [Further Reading](#7-further-reading)
 
@@ -88,3 +88,4 @@ The manuscript was written and edited in LaTeX. See the final published copy
 
 ## Acknowledgement
 Spatial thanks to the co-Authors, the chair group of spatial planning at Wageningen University, and the Dutch National Research Council(NWO)](https://www.nwo.nl/en/projects/kich1ed0320012) for funding the FlexECs project.
+## Further Reading
