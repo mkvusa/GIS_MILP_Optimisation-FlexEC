@@ -17,7 +17,7 @@ The case study focuses on Eindhoven, the Netherlands.
 3. [Datasets](#2-Datasets) 
 4. [Setup](#3-setup-gis--milp)  
 5. [Repository Files](#4-repository-files)  
-6. [Outputs]#(5-outputs)  
+6. [Outputs](#5-Outputs)  
 7. [Writing and Citation](#6-writing-and-citation)  
 8. [Acknowledgement](#7-acknowledgement)  
 8. [Further Reading](#8-further-reading)
@@ -42,7 +42,7 @@ The repository includes selected processed inputs, optimization scripts, and out
 
 ---
 
-## 1. Requirements
+## Requirements
 
 The workflow was developed using the following software:
 
@@ -54,7 +54,12 @@ The workflow was developed using the following software:
 - [LaTeX](https://www.latex-project.org/) `[Free]`
 - [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) `[Licensed]`
 
-## 2. Datasets
+## Setup
+The model is framework is set to intergrate spatial suitability of location using spatial regressionn analys with MILP to optimze location, number, cost, travel time and invements cost for an optimzed charging station network.
+
+The model has two main objectives monetary cost and Travel time. Monetary cost refered to as MC comprimses of the investment cost in land acquisition, BESS storage installation and cost of charging at the station while the Travel cost is the cost of traveling to the EVCS to dicharge or charge energy by the user. The setup allows for the assesment of these two objective using tradeoff for palnning purposes. Read manuscipt fot further details.
+
+## Datasets
 
 The datasets in this folder include GIS and MILP files. Due to the size of the GIS files, the road network, neighbourhood boundaries, and points of interest are not included in this repository. However, these datasets can be publicly accessed through [CBS](https://www.cbs.nl/), [PDOK](https://app.pdok.nl/viewer/), and [Esri Living Atlas of the World](https://livingatlas.arcgis.com/en/home/) `[Licensed]`.
 
@@ -63,6 +68,8 @@ The data folder also includes the result files of the TT run and MC run. These f
 In the [Scripts](Scripts) folder, the scripts used in the study are presented. The main files in this folder are the MILP scripts labelled [TT_run_EVCS.ipynb](Scripts/TT_run_EVCS.ipynb) for the travel-time optimization scenario and [MC_run_EVCS.ipynb](Scripts/MC_run_EVCS.ipynb) for the monetary-cost optimization scenario. The folder also includes [MC_results_analysis.ipynb](Scripts/MC_results_analysis.ipynb), which was used to analyse the monetary-cost results. For further details, see the published article.
 
 Due to the size of the spatial data, these files are not included in this repository. However, a description of how the data were collected, processed, and used is detailed in the manuscript. The datasets can be accessed online from the original data providers.
+
+## 3 Setup
 
 Main Python packages include:
 
